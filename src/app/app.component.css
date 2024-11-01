@@ -1,0 +1,44 @@
+.example-container{
+    height: 100%;
+}
+mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-color: #BE0000;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+mat-drawer-container {
+    flex: 1;
+}
+
+.topics-sidenav {
+    background-color:#BE0000;
+    height: 100%;
+    border-radius: 0;
+    width: 25%;
+    ul {
+        list-style-type: none; 
+        padding: 64px 0 0 0;
+        margin: 0;
+    }
+
+    button {
+        border-radius: 0;
+        width: 100%;
+        color:white;
+    }
+}
+
+.header-image {
+    height: 40px;
+    margin-left: auto;
+}
+
+.menu-icon {
+    color: white;
+}
